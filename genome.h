@@ -1,14 +1,24 @@
 #ifndef GENOME_H
 #define GENOME_H
 
+
+
+
 // Represents a single gene in the genetic code with RGB color values
+
 struct Chromosome {
     int red;    // Red color intensity
     int green;  // Green color intensity
     int blue;   // Blue color intensity
 };
 
+
+
+
 // Class to represent the genetic code consisting of multiple chromosomes
+
+
+
 class GeneticCode {
 public:
     GeneticCode(); // Constructor to initialize an empty genetic code
